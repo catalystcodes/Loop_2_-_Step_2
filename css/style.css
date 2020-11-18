@@ -68,9 +68,9 @@ body {
 }
 
 .head3 {
-    padding-top: 3rem;
+    padding-top: 4rem;
     margin-left: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.6rem;
 }
 
 .h2 {
@@ -91,6 +91,7 @@ body {
 .input1::placeholder {
     font-size: small;
     font-weight: bolder;
+    color: #a3acb5;
 }
 
 .head4 {
@@ -107,4 +108,20 @@ body {
     border-bottom: 1px #acacab solid;
     margin-top: 0.3rem;
     padding-right: 1.6rem;
+}
+
+.input2::placeholder {
+    color: #a3acb5;
+    font-size: small;
+    font-weight: bolder;
+}
+
+.head7,
+.head8 {
+    margin-left: 2rem;
+    margin-top: 1.6rem;
+}
+
+textarea::placeholder {
+    font-family: sans-serif;
 }
