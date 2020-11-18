@@ -1,5 +1,6 @@
 body {
     background: #2f2f2f;
+    font-family: sans-serif;
 }
 
 .head1 {
@@ -13,7 +14,6 @@ body {
 
 .h1 {
     font-size: 1.18rem;
-    font-family: sans-serif;
 }
 
 .sub-head1 {
@@ -58,4 +58,53 @@ body {
 
 .img1:hover {
     cursor: pointer;
+    transform: rotate(360deg);
+    transition: 1s;
+}
+
+.p1:hover {
+    color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+}
+
+.head3 {
+    padding-top: 3rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.h2 {
+    font-size: 0.7rem;
+    color: #acacab;
+}
+
+.input1 {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    border-bottom: 1px #acacab solid;
+    padding-right: 14rem;
+    margin-top: 0.3rem;
+}
+
+.input1::placeholder {
+    font-size: small;
+    font-weight: bolder;
+}
+
+.head4 {
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.input2 {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    border-bottom: 1px #acacab solid;
+    margin-top: 0.3rem;
+    padding-right: 1.6rem;
 }
