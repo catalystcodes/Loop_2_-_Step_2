@@ -124,4 +124,5 @@ body {
 
 textarea::placeholder {
     font-family: sans-serif;
+    color: #a3acb5;
 }
